@@ -1,0 +1,17 @@
+  what is spread operators?
+
+ it basically gives us the new array/objects with same value as previously defined
+
+ let obj ={
+    key 1:value1,
+    key 2:value 2
+ }
+
+ let obj2= {...obj1}
+
+ console.log(obj2)
+
+ it will give us {key1: 'value1', key2: 'value2'}
+
+ due to our spread (...)operator in es6 which help us to build new obj here with same key and value pair.
+ note value also are same.
